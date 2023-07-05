@@ -1,0 +1,29 @@
+{
+    "name": "firebase-recaptcha-function",
+    "version": "1.0.0",
+    "description": "Implementing score based authentication using Recaptcha Enterprise, Firebase Admin, Cloud Functions",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "pretty": "prettier --write .",
+        "prepare": "husky install"
+    },
+    "type": "module",
+    "engines": {
+        "npm": ">=8.17.0",
+        "node": ">=18.7.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/recaptcha-enterprise": "^3.4.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "firebase-admin": "^11.9.0",
+        "husky": "^8.0.3",
+        "nodemon": "^2.0.22",
+        "prettier": "^2.8.8"
+    }
+}
